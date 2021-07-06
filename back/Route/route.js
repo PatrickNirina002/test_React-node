@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+const controller = require("../Controllers/ListeVoiture");
+const commentaire = require("../Controllers/Commentaire");
+const auth = require("../Controllers/auth.controlleur");
+router.get("/", controller.retrieve);
+router.post("/comment/:_id", commentaire.comment);
+router.get("/article/:id", commentaire.info);
+router.post('/register', auth.signup);
+router.post('/login', auth.login);
+module.exports = router; 

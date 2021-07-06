@@ -1,0 +1,446 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.eto{
+  background-color: #d05c62 !important
+}
+#eto{
+  background-color: #262625 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+
+
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: white !important;
+}
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #262625;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #d05c62 !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #d05c62 !important;
+  color: white !important;
+  border: 10 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 30px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #d05c62 !important;
+}
+.log{
+  margin-top: 200px !important
+}
+.imag{
+  width: 100%;
+  height: 100%;
+}
+.card-text{
+  font-family: Verdana !important;
+ 
+  color:black !important;
+  font-size: 20px !important;
+}
+
+
+.navbar-inverse
+{
+    background:#d05c62;
+    border-bottom-color: #d05c62;
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>.dropdown>a .caret
+{
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-nav>li>.dropdown-menu
+{
+    background:#d05c62;
+}
+.nav-pills>li>a
+{
+    color: #d05c62;
+}
+
+.nav>li>a:hover, .nav>li>a:focus
+{
+    background-color: #EEEEEE;
+}
+.btn-primary{
+  background-color: #262625 !important;
+}
+.sac{
+  color:white !important;
+  font-size: 30px;
+  height:  160px !important;
+  width: 100px;
+  background-color: #f3671f !important;
+  border-radius: 10px;
+  text-decoration:none;
+}
+#foot{
+  background-color:#d05c62 !important; 
+  margin-top: 300px !important;
+}
+.dropdown-toggle{
+  font-size: 30px;
+}
+#anarana{
+  font-size: 30px;
+}
+#daholo{
+  font-size: 18px;
+}
+#user{
+  font-size: 40px !important;
+  color: #f3671f !important;
+
+}
+.btn-primary{
+  background-color: #f3671f !important;
+}
+#conect{
+  font-size: 30px !important;
+  color: #fff
+}
+#champ{
+  height: 50px !important;
+  font-size: 20px !important;
+}
+label{
+  font-size: 15px !important;
+}
+.fadeIn{
+ width:  100% !important
+}
+.sary{
+  width: 80px !important;
+  height: 90px !important;
+}
+h3{
+  font-family: "Roboto" !important;
+ font-weight: bold;
+  color:white !important;
+  font-size: 40px !important;
+}
+
+.midina{
+  margin-top: 280px !important;
+}
+.btn{
+width: 150px !important;
+height: 50px !important;
+font-size: 15px !important;
+border-radius: 10px !important;
+}
+#titrebe{
+  font-family: "Roboto" !important;
+  font-size: 20px !important;
+}
+#nafafy{
+  font-size: 50px !important;
+  font-family: verdana;
+}
+.bou{
+  height: 80px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px !important;
+  background-color: #f3671f
+}
+.slider{
+  margin-top: -30px;
+}
+#metykosa{
+  background-color: #f3671f !important;
+  width: 50px;
+  line-height: 27px;
+}
+.carde{
+  margin-top:20px;
+}
+.nom{
+  color: #f3671f !important;
+  font-size:60px !important;
+}
+.espace{
+  margin-top:58px;
+}
+.li{
+  font-size: 15px;
+  
+}
+.roundedImage{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:50px;
+  height:50px;
+}
+.sar{
+  width: 100%;
+  height: 270px;
+}
+.pop{
+  background-color: #262625;
+  
+}
+.blanc{
+  color:white
+}
+.ferme{
+  overflow:hidden;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+  width:30px;
+  height:30px;
+  background-color: red;
+}
+.slid{
+  margin-top: -30px;
+}
+.cart{
+  
+  width: 70%;
+  background-color: #130a0a05
+}
+.long{
+  width: 200px !important;
+}
+.faire{
+  width: 200px;
+  height: 200px;;
+}
+.haut{
+  margin-top: -90px;
+}
+.couverture{
+  height: 20%;;
+}
+.pour{
+  width: 99%;
+}
+
+.rond{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:40px;
+  height:40px;
+}
+.dropbtn {
+  color: rgb(3, 22, 4);
+  color: rgb(19, 18, 18);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(12, 8, 8, 0.966);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #1e201e}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #1e201e;
+}
+h3{
+  margin-top: -50px !important;
+  color: black !important;
+}
+.h{
+  background-color: dimgray;
+ 
+}
+.ici{
+  font-size:30px;
+}
+.ad{
+  width: 200px !important;
+
+}
+.titl{
+  font-size: 20px;
+  font-weight: bold;
+  color: #830909;
+}
+#foote{
+  background-color: #262625 !important;
+  background-color: #34475E;
+
+  height: auto !important;
+ 
+}
+.videbe{
+  margin-bottom: 900px !important;
+}
+.registe{
+  margin-top:200px !important;
+}
+.faran{
+  margin-bottom: 300px;
+
+}
+.poste{
+  margin-bottom: 450px !important;
+}
+.zaza{
+  margin-bottom: 400px;
+}
+.sitiregister{
+  margin-top: 300px;
+}
+.propo{
+  font-size: 30px;
+  height: 900px;
+}
+.lii{
+  font-size: 20px;
+}
+.admin{
+  margin-left:150px;
+  width: 90% !important;
+}
+.back{
+  background-color: #262625 !important;
+}
+#back{
+  background-color: #262625 !important;
+}
+#atao{
+  height: 180px;;
+}
+.v{
+  margin-bottom: 20px;
+}
+.we{
+  height:  50px !important;
+  font-size: 20px !important;
+  width: 80% !important;
+}
+.cole{
+  color: white !important;
+}
+.red{
+  color: rgb(160, 137, 137) !important;
+}
+.toto{
+  height:  50px !important;
+  font-size: 20px !important;
+}
+.midina{
+  margin-top: 60px !important;
+}
+.ratah{
+  margin-top: 800px !important;
+}
+.vvv{
+  margin-top: 500px;
+}
+#fidel{
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+.titi{
+  font-size:30px !important;
+  color: rgb(138, 36, 44) !important;
+}
+.loko{
+  color: #c9223e !important;
+  font-weight: bold !important;
+}
+.ss{
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
